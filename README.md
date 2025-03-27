@@ -13,3 +13,4 @@ sudo cp tanium-init.dat /opt/Tanium/TaniumClient
 ```
 - start service with `systemctl start taniumclient.service`
 - check it's enabled and running  with `sudo systemctl status taniumclient`
+- check configuration with `sudo /opt/Tanium/TaniumClient/TaniumClient config list`
