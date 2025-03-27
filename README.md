@@ -14,3 +14,5 @@ sudo cp tanium-init.dat /opt/Tanium/TaniumClient
 - start service with `systemctl start taniumclient.service`
 - check it's enabled and running  with `sudo systemctl status taniumclient`
 - check configuration with `sudo /opt/Tanium/TaniumClient/TaniumClient config list`
+- see it running among system services with `systemctl --type=service --state=running`
+  and see memory usage (peak too) using the same `systemctl status taniumclient.service`
