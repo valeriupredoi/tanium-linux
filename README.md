@@ -20,6 +20,8 @@ sudo cp tanium-init.dat /opt/Tanium/TaniumClient
   - get a custom `top` monitoring run:
 ```
 top -p `pgrep Tanium | tr "\\n" "," | sed 's/,$//'`
+top -p `pgrep pybin | tr "\\n" "," | sed 's/,$//'`
+top -p `pgrep TPython | tr "\\n" "," | sed 's/,$//'`
 ```
   - or inspect the journaling logs:
 ```
